@@ -1,0 +1,20 @@
+# Dependencies and generated output
+node_modules/
+dist/
+**/node_modules/
+**/dist/
+
+# Private environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local logs/editor files
+*.log
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
